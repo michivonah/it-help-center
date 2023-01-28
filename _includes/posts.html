@@ -1,6 +1,6 @@
 <div class="">
   {% if site.posts.size == 0 %}
-  <h2>No post found</h2>
+  <h2>Keine Beitr&auml;ge gefunden</h2>
   {% else %}
   
   {% for post in site.posts %}
@@ -22,7 +22,7 @@
       </div>
 
       <div class="list-post-written" data-aos="fade-up" data-aos-delay="700" data-aos-offset="0">
-        <small>Written by <span>{{ post.by }}</span>-</small>
+        <small>Erstellt von <span>{{ post.by }}</span>-</small>
         <small><time>{{ post.date | date_to_string }}</time></small>
       </div>
     </div>
